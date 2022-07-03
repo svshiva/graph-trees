@@ -1,5 +1,6 @@
 class TreeNode:
     def __init__(self, val=None, left=None, right=None):
+        
         if(val): self.val = val
         if (left):
             if isinstance(left, TreeNode):self.left = left
